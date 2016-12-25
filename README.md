@@ -21,10 +21,14 @@ Low resolution true-color RGB representation of satellite bands.
 ## Visualization
 
 Mountain lake:
-![RGB](http://i.imgur.com/NfWtd7T.jpg)
+![lake](http://i.imgur.com/NfWtd7T.jpg)
 
 Valley:
-![RGB](http://i.imgur.com/me6KWro.jpg)
+![valley](http://i.imgur.com/me6KWro.jpg)
 
 Field:
-![RGB](http://i.imgur.com/WYsyBrb.jpg)
+![field](http://i.imgur.com/WYsyBrb.jpg)
+
+Snowy mountain top:
+![snow](http://i.imgur.com/rVHfkxn.jpg)
+
