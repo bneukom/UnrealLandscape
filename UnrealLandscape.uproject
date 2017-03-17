@@ -1,6 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{B2DAC0EF-4264-6E98-EEB0-CEA84B17EE48}",
+	"EngineAssociation": "{CEE69F84-4646-1C0C-7752-829AAED11385}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnrealLandscape",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
 }
