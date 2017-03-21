@@ -27,6 +27,7 @@ The default material supports grass, rock, gravel, snow, water, tree, agricultur
 Due to the large scale factor of the landscape, the grass tool seems to spawn grass at wrong locations (UE4.14). I have posted a simple fix to the LandscapeGrass.cpp class (the Engine needs to be cloned and rebuilt as described on the UnrealEngine Github page) in an official forum [thread](https://answers.unrealengine.com/questions/535737/grass-tool-spawns-below-landscape.html).
 
 # Future Work
+* Support level streaming for arbitrary large landscapes
 * Add support for 3D building models using the [StreetMap Plugin](https://github.com/ue4plugins/StreetMap)
 * Add the classification algorithms from LCC.net directly into UE4 as a plugin
 * Add more grass nodes for clutter such as rocks and gravel
