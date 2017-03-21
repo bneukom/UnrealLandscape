@@ -30,7 +30,7 @@ Due to the large scale factor of the landscape, the grass tool seems to spawn gr
 * Add the classification algorithms from LCC.net directly into UE4 as a plugin
 * Add more grass nodes for clutter such as rocks and gravel
 
-# Visualization
+# Sample Scene Screenhots
 
 ![lake](http://i.imgur.com/NfWtd7T.jpg)
 
