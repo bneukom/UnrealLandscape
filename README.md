@@ -15,9 +15,15 @@ More can be seen at the bottom of this readme. By using the landcover maps we ca
 The landscape material supports tree and grass placement using the landcover maps. Different models can obviously added if desired. The default material uses models from the Unreal sample projects. Different landcover types are simple blended together and can optionally also be blended partially with the satellite imagery to achieve higher fidelity. These parameters can be changed in the material instance.
 
 # Workflow
-To generate new scenes the steps described [here](https://github.com/bneukom/LCC.net) must be followed first. After following these steps we should have landcover maps for earch desired landcover type. The default material supports grass, rock, gravel, snow, water, tree, agriculture and builtup land cover types. If other landcover maps were generated using LCC the material has to be adapted accordingly.
+To generate new scenes the steps described [here](https://github.com/bneukom/LCC.net) must be followed first. After following these steps we should have landcover maps for earch desired landcover type as well as a heightmap. First we import the heightmap into the engine and set the material to an instance of MAT_Landscape. The default material supports grass, rock, gravel, snow, water, tree, agriculture and builtup land cover types. If other landcover maps were generated using LCC the material has to be adapted accordingly. The landcovermaps can then be imported Landscape Paint Tool as follows:
 
-#
+<p align="center">
+   <img src="http://i.imgur.com/ZXjcerH.png" alt="landscape import" height="400"/>
+</p>
+
+# Landscape Grass Bug
+
+# Future Work
 
 # Visualization
 
@@ -28,5 +34,3 @@ To generate new scenes the steps described [here](https://github.com/bneukom/LCC
 ![field](http://i.imgur.com/WYsyBrb.jpg)
 
 ![snow](http://i.imgur.com/rVHfkxn.jpg)
-
-## Future Work
