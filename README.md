@@ -31,7 +31,8 @@ Due to the large scale factor of the landscape, the grass tool seems to spawn gr
 * Add more grass nodes for clutter such as rocks and gravel
 
 # Sample Scene Screenshots
-Note that no hand 
+Note that the scene was not modified by hand, everything is generated automatically.
+
 ![lake](http://i.imgur.com/NfWtd7T.jpg)
 
 ![valley](http://i.imgur.com/me6KWro.jpg)
