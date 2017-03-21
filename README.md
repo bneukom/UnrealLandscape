@@ -6,7 +6,7 @@ The project contains a sample scene (<i>Sentinel_32TLS_20160823</i>) with genera
 
 ![valley2](http://i.imgur.com/o2mMmSl.jpg)
 
-More screenshots are at the bottom of this readme. By using the generated landcover maps we can drastically improve the visualization as with only using the low resolution satellite imagery as shown in the following screenshot:
+More screenshots [here](https://github.com/bneukom/UnrealLandscape#sample-scene-screenshots). By using the generated landcover maps we can drastically improve the visualization as with only using the low resolution satellite imagery as shown in the following screenshot:
 
 ![comp](http://i.imgur.com/V7X0LfG.jpg)
 
