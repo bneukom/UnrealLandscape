@@ -11,10 +11,10 @@ More screenshots are at the bottom of this readme. By using the landcover maps w
 ![comp](http://i.imgur.com/V7X0LfG.jpg)
 
 # Landscape Material
-The landscape material supports tree and grass placement using the landcover maps. Different models for the trees or grass can obviously be added if desired. The default material uses models from the Kite demo. Different landcover types are blended together and can optionally also be blended partially with the satellite imagery to achieve higher fidelity. These parameters can be changed in the material instance.
+The landscape material supports tree and grass placement using the landcover maps. Different models for the trees or grass can obviously be added if desired. The material also supports a simple water shader. The models used for the sample scene are from the Unreal Kite demo. Different landcover types are blended together and can optionally also be blended partially with the satellite imagery to achieve higher fidelity. The blending parameters can be changed in the material instance.
 
 # Workflow
-To generate new scenes the steps described [here](https://github.com/bneukom/LCC.net) must be followed first. After following these steps we should have landcover maps for earch desired landcover type as well as a heightmap. First we import the heightmap into the Unreal Engine and set the material to an instance of MAT_Landscape. Note that the landscape has to be scaled according to the resoltution of the heightmap. GDEM has a spatial resolution of 30meters and therfore our landscape should have scale factor of 3000 for the x and y coordinates. The z scale must be calculated using the difference of the minimum altitude and maximum altitude of the heightmap divided by 512 as described [here](https://wiki.unrealengine.com/World_Machine_to_Unreal_Engine_4_-_In_Depth_Guide).
+To generate new scenes the steps described [here](https://github.com/bneukom/LCC.net) must be followed first. After following these steps we should have landcover maps for earch desired landcover type as well as a heightmap. First we import the heightmap into the Unreal Engine and set the material to an instance of MAT_Landscape. Note that the landscape has to be scaled according to the resoltution of the heightmap. GDEM v2 has a spatial resolution of 30 meters and therfore our landscape should have scale factor of 3000 for the x and y coordinates. The z scale must be calculated using the difference of the minimum altitude and maximum altitude of the heightmap divided by 512 as described [here](https://wiki.unrealengine.com/World_Machine_to_Unreal_Engine_4_-_In_Depth_Guide).
 
 The default material supports grass, rock, gravel, snow, water, tree, agriculture and builtup land cover types. If other landcover maps were generated using the [LCC.net](https://github.com/bneukom/LCC.net) tool, the material has to be adapted accordingly. The landcovermaps can then be imported Landscape Paint Tool as follows:
 
@@ -28,6 +28,7 @@ Due to the large scale factor of the landscape, the grass tool seems to spawn gr
 # Future Work
 * Add support for 3D building models using the [StreetMap Plugin](https://github.com/ue4plugins/StreetMap)
 * Add the classification algorithms from LCC.net directly into UE4 as a plugin
+* Add more grass nodes for clutter such as rocks and gravel
 
 # Visualization
 
